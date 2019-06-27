@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa26041-7706-4cfa-b375-3178a9c7fbe5" name="Default Changelist" comment="Updated README.md with config info&#10;Added ConfigLoader to read config.json file&#10;Added default.json file Implemented Logger in main class &#10;Changed main class to load config and bot token.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/asukabot/command/Ping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/asukabot/command/Setup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/asukabot/listener/UserJoinListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/asukabot/Asuka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/asukabot/Asuka.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -78,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/me/asukabot/Asuka.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="412">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1537#1538#0" expanded="true" />
@@ -110,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/me/asukabot/command/Setup.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -119,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/me/asukabot/command/Ping.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,6 +210,11 @@
             <path>
               <item name="asuka" type="b2602c69:ProjectViewProjectNode" />
               <item name="asuka" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="asuka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="asuka" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="asuka" type="b2602c69:ProjectViewProjectNode" />
@@ -335,7 +334,7 @@
       <workItem from="1561606798955" duration="2930000" />
       <workItem from="1561610599859" duration="1197000" />
       <workItem from="1561615481246" duration="2622000" />
-      <workItem from="1561618625888" duration="573000" />
+      <workItem from="1561618625888" duration="815000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README.md with config info&#10;Added ConfigLoader to read config.json file&#10;Added default.json file Implemented Logger in main class &#10;Changed main class to load config and bot token.">
       <created>1561609491739</created>
@@ -344,17 +343,23 @@
       <option name="project" value="LOCAL" />
       <updated>1561609491739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add JDAUtils&#10;Add Ping command">
+      <created>1561619416980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561619416980</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12145000" />
+    <option name="totallyTimeSpent" value="12387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="27" width="1862" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26817182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26817182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -363,7 +368,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954337" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,7 +401,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated README.md with config info&#10;Added ConfigLoader to read config.json file&#10;Added default.json file&#10;Implemented Logger in main class&#10;Changed main class to load config and bot token." />
     <MESSAGE value="Updated README.md with config info&#10;Added ConfigLoader to read config.json file&#10;Added default.json file Implemented Logger in main class &#10;Changed main class to load config and bot token." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md with config info&#10;Added ConfigLoader to read config.json file&#10;Added default.json file Implemented Logger in main class &#10;Changed main class to load config and bot token." />
+    <MESSAGE value="Add JDAUtils&#10;Add Ping command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JDAUtils&#10;Add Ping command" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew">
@@ -498,7 +504,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/me/asukabot/Asuka.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1537#1538#0" expanded="true" />
@@ -510,14 +516,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/me/asukabot/command/Setup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/asukabot/command/Ping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
