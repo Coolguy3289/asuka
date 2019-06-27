@@ -1,16 +1,16 @@
 package me.asukabot;
 
-import me.asukabot.config.Config;
+
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
 import net.dv8tion.jda.core.entities.Game;
 
 import javax.security.auth.login.LoginException;
-import java.io.File;
 import java.io.IOException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import io.github.cdimascio.dotenv.Dotenv;
 
 public class Asuka {
     private static JDA jda;
@@ -18,9 +18,9 @@ public class Asuka {
 
 
     public static void main(String[] args) throws LoginException, IOException {
-        Config config = new Config(new File("config.json"));
+        Dotenv dotenv = Dotenv.load();
         jda = new JDABuilder(AccountType.BOT)
-            .setToken(config.getString("token"))
+            .setToken(dotenv.get("DISCORD_TOKEN"))
             .setGame(Game.playing("asukabot.com"))
             .build();
     }
